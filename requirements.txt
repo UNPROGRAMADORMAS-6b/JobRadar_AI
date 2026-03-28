@@ -1,17 +1,29 @@
-# Framework principal y servidor
-fastapi==0.104.1
-uvicorn==0.24.0
+# Framework Base y Servidor
+fastapi==0.110.0
+uvicorn==0.27.1
+python-dotenv==1.0.1
 
-# Conexión a base de datos PostgreSQL
+# Base de Datos (PostgreSQL & ORM)
+sqlmodel==0.0.16
 psycopg2-binary==2.9.9
-sqlalchemy==2.0.23
+sqlalchemy==2.0.27
 
-# Manejo de variables de entorno (.env)
-python-dotenv==1.0.0
+# Inteligencia Artificial y LLMs
+google-generativeai==0.4.1
+langchain-google-genai==1.0.1
+openai==1.13.3
+langchain==0.1.11
 
-# Validaciones de datos
-pydantic==2.5.2
+# Procesamiento de Documentos
+PyPDF2==3.0.1
+python-docx==1.1.0
 
-# IA (Descomenta el que hayas usado)
-# google-generativeai==0.3.1  <-- Si usaste Gemini
-# openai==1.3.7               <-- Si usaste ChatGPT
+# Web Scraping (Extracción de Vacantes)
+playwright==1.42.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+requests==2.31.0
+
+# Utilidades y Validación
+pydantic==2.6.3
+pydantic-settings==2.2.1
