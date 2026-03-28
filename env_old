@@ -1,0 +1,15 @@
+# Configuración del Servidor
+PROJECT_NAME="JobRadar AI"
+VERSION="1.0"
+
+# Seguridad
+SECRET_KEY="mi_super_clave_secreta_indescifrable_2024"
+
+# --- BASE DE DATOS ---
+DATABASE_URL="postgresql://usuario:password@localhost:5432/tu_base_de_datos"
+# --- INTELIGENCIA ARTIFICIAL ---
+GEMINI_API_KEYS="CLAVE_GEMINI_IA"
+
+# --- TELEGRAM ---
+TELEGRAM_TOKEN="TOKE_TELEGRAM"
+TELEGRAM_CHAT_ID="ID_TELEGRAM"
